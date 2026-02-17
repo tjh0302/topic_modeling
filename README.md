@@ -11,12 +11,11 @@ Functions are built out to visualize the model's topics, examine topics, identif
 ### Implements various techniques for embeddings, dimensionality reduction, and visualization techniques
   - Vectorizer and Embeddings: TFIDF Vectorizer, transformer-based embeddings (code built but not implemented, need python version upgrade)
   - Dimensionality Reduction: PCA, t-SNE, UMAP
-Model Evaluation: Silhouette Score
-Topic Extraction: c-TF-IDF (built from scratch), BERTopic (not yet implemented)
-Visualizations: 2D scatter plots of dimensionality-reduced clusters (colored), dendrograms (condensed, simple), word cloud (not yet implemented)
+  - Model Evaluation: Silhouette Score
+  - Topic Extraction: c-TF-IDF (built from scratch), BERTopic (not yet implemented)
+  - Visualizations: 2D scatter plots of dimensionality-reduced clusters (colored), dendrograms (condensed, simple), word cloud (not yet implemented)
 
 ### Example Output from HDBSCAN + UMAP
-
 <img width="1355" height="752" alt="image" src="https://github.com/user-attachments/assets/9073bc2d-838b-4928-9c01-84b2928a6768" />
 
 ## Example data - a small and a large dataset
@@ -27,4 +26,3 @@ Small - Created using ChatGPT my asking it to compile 100 sentences about financ
 
 ## Environment
 Utilized a virtual environment for dependencies which is represented by the requirements.txt
-
