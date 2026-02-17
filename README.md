@@ -2,9 +2,12 @@
 
 ## Probabilistic (Statistical) Approaches - Latent Dirichlet Allocation, LSA
 
-The notebook and python module include implementation of LDA for probabilistic topic modeling on a set of text. 
-Visualizations: intertopic distance using pyLDAvis
+Implements LDA for probabilistic topic modeling on a set of text. 
 Functions are built out to visualize the model's topics, examine topics, identify the most probabilistic title, and map topics back to a pandas dataframe.
+
+### Example Output from LDA 
+<img width="1355" height="752" alt="image" src="https://github.com/user-attachments/assets/a205768e-3943-4af4-94e3-f76d9a7a079e" />
+
 
 ## Clustering Approaches: K-means, DBSCAN, HDBSCAN
 
