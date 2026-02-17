@@ -1,0 +1,38 @@
+# this file provides the necessary packages to run topic modeling (LDA) via gensim and pyLDAvis
+
+pip==26.0.1
+
+## direct dependencies
+gensim==3.4.0
+
+pyLDAvis==3.4.1
+
+## nested dependencies
+funcy==2.0
+Jinja2==3.1.6
+joblib==1.5.3
+MarkupSafe==3.0.3
+numexpr==2.10.2
+numpy==2.0.2
+pandas==2.3.3
+pyLDAvis==3.4.1
+python-dateutil==2.9.0.post0
+pytz==2025.2
+scikit-learn==1.6.1
+scipy==1.12.1 # was 1.13
+setuptools==58.1.0
+six==1.17.0
+smart_open==7.5.0
+threadpoolctl==3.6.0
+tzdata==2025.3
+wrapt==2.1.1
+
+
+## added from notebook installs
+click==8.1.8
+nltk==3.9.2
+regex==2026.1.15
+tqdm==4.67.3
+openpyxl==3.1.5
+
+
