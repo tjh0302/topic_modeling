@@ -29,3 +29,5 @@ Small - Created using ChatGPT my asking it to compile 100 sentences about financ
 
 ## Environment
 Utilized a virtual environment for dependencies which is represented by the requirements.txt
+
+Requirements.txt needs updating from some packages installed in the notebook for clustering. These are reflected in the notebook.
